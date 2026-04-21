@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr"
+<head>
+    <meta charset=""UTF-8">
+    <title>Mon projet reconversion</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+
+        h1{
+            color: #333;
+        }
+
+        p {
+            front-size: 18px;
+        }
+
+        button{
+            padding: 10px 20px;
+            front-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #0056b3;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>Bonjour, moi c'est Jennifer </h1>
+        <p>J'ai 36 ans et je suis actuellement en CDI à la SNCF, en tant qu'agent de la sûreté ferroviaire</p> 
+        <p>Je souhaite devenir développeuse web.</p>
+        <button onclick="changerTexte()"Clique ici</button>
+        <p id="message"></p>
+
+        
+        <h2>Pourquoi le développement?</h2>
+
+        <p>J'aime résoudre les problèmes, apprendre de nouvelles compétences et créer des choses concrètes. Le développement correspond parfaitement à ces objectifs.</p>
+
+        <h2>Mes premiers pas en code</h2>
+
+        <p>J'ai commencé à apprendre le HTML, CSS et Javascript en autonomie!</p>
+            
+
+        <script>
+            function changerTexte(){
+                document.getElementById("message").innerText = "MERCI DE VISITER MON PROJET!";
+            }
+
+        </script>
+
+    </body>
+    </html>
